@@ -1,19 +1,34 @@
 * {
-    font-family: Arial, sans-serif;
-    margin-top: 0
+    font-family: Raleway, sans-serif;
+    margin: 10px;
 }
 
-/*body {
-    background: #00399C;
-    background: linear-gradient(-45deg, #00399C, #1A5DD2);
-    margin: 0;
-}*/
+body {
+    margin-left: 12.5%;
+    width: 75%;
+    min-width: 50%;
+}
 
 .header {
     background-image: url("http://i.imgur.com/kk0351J.jpg");
     background-position: bottom center;
-    height: 760px;
+    border-radius: 20px;
+    border: solid;
     margin: 0;
+}
+
+.menu {
+    text-align: center;
+    background-color: Tan;
+    border-radius: 10px;
+    border: solid;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 5px 25px;
 }
 
 h1 {
@@ -22,11 +37,14 @@ h1 {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 70px;
-    padding-top: 340px;
+    padding: 30% 0%;
 }
 
-.intro {
+#me {
+    width: 30%;
+    display: block;
     text-align: center;
+    margin-left: 35%;
 }
 
 img {
