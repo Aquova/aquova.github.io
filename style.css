@@ -3,12 +3,6 @@
     margin: 10px;
 }
 
-/*body {
-    margin-left: 12.5%;
-    width: 75%;
-    min-width: 50%;
-}*/
-
 .header {
     background-image: url("http://i.imgur.com/kk0351J.jpg");
     background-position: bottom center;
@@ -39,23 +33,12 @@ h1 {
     font-size: 70px;
     padding: 30% 0%;
 }
-
-#me {
-    width: 30%;
-    display: block;
-    text-align: center;
-    margin-left: 35%;
-}
-
+/*
 img {
     margin-left: 15px;
-}
+}*/
 
 .media {
     text-align: center;
+    padding-left: 15px;
 }
-
-/*.weather {
-    display: inline-block;
-    text-align: center;
-}*/
