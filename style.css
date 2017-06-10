@@ -55,6 +55,7 @@ img {
     text-align: center;
 }
 
-.weather {
-    margin-left: 36%;
-}
+/*.weather {
+    display: inline-block;
+    text-align: center;
+}*/
