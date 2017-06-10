@@ -3,11 +3,11 @@
     margin: 10px;
 }
 
-body {
+/*body {
     margin-left: 12.5%;
     width: 75%;
     min-width: 50%;
-}
+}*/
 
 .header {
     background-image: url("http://i.imgur.com/kk0351J.jpg");
@@ -53,4 +53,8 @@ img {
 
 .media {
     text-align: center;
+}
+
+.weather {
+    margin-left: 36%;
 }
