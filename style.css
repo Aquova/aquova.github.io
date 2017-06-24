@@ -4,28 +4,26 @@
 }
 
 html, body {
-    margin: 0;
     height: 100%;
+    max-width: 1024px;
 }
 
-/*Code to add color gradient as background*/
-/*body {
-    background: MidnightBlue; /* For browsers that do not support gradients
-    background: -webkit-linear-gradient(left top, MidnightBlue, blue); /* For Safari 5.1 to 6.0
-    background: -o-linear-gradient(bottom right, MidnightBlue, blue); /* For Opera 11.1 to 12.0
-    background: -moz-linear-gradient(bottom right, MidnightBlue, blue); /* For Firefox 3.6 to 15
-    background: linear-gradient(to bottom right, MidnightBlue, blue); /* Standard syntax (must be last)
-    color: White;
-    border-color: Black;
-} */
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgb(160, 177, 207);
+}
 
 .header {
-    background-image: url("http://i.imgur.com/kk0351J.jpg");
-    background-position: bottom center;
+    background-image: url("https://i.imgur.com/O8Eo78i.jpg");
+    max-height: 685px;
     border-radius: 20px;
     border: solid;
-    /*border-color: inherit;*/
-    padding: 10px;
 }
 
 .menu {
@@ -34,6 +32,27 @@ html, body {
     border-radius: 10px;
     border-color: inherit;
     border: solid;
+}
+
+.info, .footer, .news {
+    border: solid;
+    border-radius: 10px;
+    background-color: White;
+}
+
+.info, .news {
+    padding: 10px;
+}
+
+.news {
+    height: 80%;
+}
+.media {
+    border: solid;
+    border-radius: 10px;
+    background-color: White;
+    text-align: center;
+    padding-left: 15px;
 }
 
 li {
@@ -52,12 +71,9 @@ h1 {
     padding: 30% 0%;
 }
 
-/*img {
-    text-align: center;
-}*/
-
-.media {
-    /*background-color: #efefef;*/
-    text-align: center;
-    padding-left: 15px;
+#me {
+    max-width: 100%;
+    max-height: 100%;
+    border: solid;
+    border-radius: 10px;
 }
