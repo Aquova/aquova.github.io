@@ -19,6 +19,15 @@
         </div>
 
         <div class="commands">
+            <h2>!about</h2>
+            <p>Aquobot gives a basic description of itself</p>
+            <p>Syntax: !about</p>
+            <div class="syntax">
+                <p><b>@adrii</b> !about</p>
+                <p><b>@Aquobot</b> I am Aquobot, I am here to help!</p>
+            </div>
+            <br/>
+
             <h2>!alive</h2>
             <p>Simply asks the bot to respond if active</p>
             <p>Syntax: !alive</p>
@@ -37,6 +46,14 @@
             </div>
             <br/>
 
+            <h2>!ecco</h2>
+            <p>Takes text and adds it an image of the style of text from Ecco the Dolphin</p>
+            <p>Syntax: !ecco PHRASE</p>
+            <div class="syntax">
+                <p><b>@Aquova</b> !ecco Hello World!</p>
+            </div>
+            <br/>
+
             <h2>!echo</h2>
             <p>Repeats back what is said to it</p>
             <p>Syntax: !echo PHRASE</p>
@@ -48,10 +65,19 @@
 
             <h2>!forecast</h2>
             <p>Gives a 7 day forecast of a specified location</p>
-            <p>Syntax: !forecast CITY_NAME</p>
+            <p>Syntax: !forecast [set] LOCATION</p>
             <div class="syntax">
                 <p><b>@Alfred</b> !forecast Cheyenne, WY</p>
                 <p><b>@Aquobot</b> Tue June 20 2017, Cloudy...</p>
+            </div>
+            <br/>
+
+            <h2>!info</h2>
+            <p>Posts information about the bot, namely current time, uptime, and temp of the RPi.</p>
+            <p>Syntax: !info</p>
+            <div class="syntax">
+                <p><b>@Aquova</b> !info</p>
+                <p><b>@Aquobot</b> Local Time: 15:48:35 Uptime: 3:48 RPi Temp: 128.6ºF</p>
             </div>
             <br/>
 
@@ -108,6 +134,24 @@
             </div>
             <br/>
 
+            <h2>!qf</h2>
+            <p>The same as !forecast, but gives the forecast in emojis</p>
+            <p>Syntax: !qf [set] LOCATION</p>
+            <div class="syntax">
+                <p><b>@Qevin</b> !qf Berlin, Germany</p>
+                <p><b>@Aquobot</b> Tue: [sun_emoji]...</p>
+            </div>
+            <br/>
+
+            <h2>!qw</h2>
+            <p>Same as !weather, but gives the weather in emojis</p>
+            <p>Syntax: !qw [set] LOCATION</p>
+            <div class="syntax">
+                <p><b>@Ryan</b> !qw NYC</p>
+                <p><b>@Aquobot</b> [cloud emoji]</p>
+            </div>
+            <br/>
+
             <h2>!roman</h2>
             <p>Converts numbers to/from roman numerals</p>
             <p>Syntax: !roman NUMBER/NUMERAL</p>
@@ -126,18 +170,18 @@
             </div>
             <br/>
 
-            <h2>!status</h2>
-            <p>Posts information about the bot, namely current time, uptime, and temp of the RPi.</p>
-            <p>Syntax: !status</p>
+            <h2>!servers</h2>
+            <p>Lists the number of servers Aquobot is currently serving.</p>
+            <p>Syntax: !servers</p>
             <div class="syntax">
-                <p><b>@Aquova</b> !status</p>
-                <p><b>@Aquobot</b> Local Time: 15:48:35 Uptime: 3:48 RPi Temp: 128.6ºF</p>
+                <p><b>@Seth</b> !servers</p>
+                <p><b>@Aquobot</b> I am currently a member of 3 servers.</p>
             </div>
             <br/>
 
             <h2>!time</h2>
             <p>Posts the current local time of the user, or of a specified location.</p>
-            <p>Syntax: !time [LOCATION]</p>
+            <p>Syntax: !time [set] LOCATION</p>
             <div class="syntax">
                 <p><b>@Crumbledore</b> !time NYC</p>
                 <p><b>@Aquobot</b> Sat, 24 Jun 2017 11:26 AM EDT</p>
@@ -155,9 +199,9 @@
 
             <h2>!weather</h2>
             <p>Gives the current weather of a specified location</p>
-            <p>Syntax: !forecast CITY_NAME</p>
+            <p>Syntax: !weather LOCATION</p>
             <div class="syntax">
-                <p><b>@Alfred</b> !forecast Cheyenne, WY</p>
+                <p><b>@Alfred</b> !weather Orlando, FL</p>
                 <p><b>@Aquobot</b> Cloudy, 77F with wind speed of...</p>
             </div>
             <br/>
