@@ -37,6 +37,15 @@
             </div>
             <br/>
 
+            <h2>!cal</h2>
+            <p>Prints out the calendar for the month</p>
+            <p>Syntax: !cal</p>
+            <div class="syntax">
+                <p><b>@Joel</b> !cal</p>
+                <p><b>@Aquobot</b> [Prints out calendar]</p>
+            </div>
+            <br/>
+
             <h2>!choose</h2>
             <p>Picks between a list of options, separated by commas</p>
             <p>Syntax: !choose OPTION1, OPTION2, OPTION3, ...</p>
@@ -63,21 +72,40 @@
             </div>
             <br/>
 
+            <h2>!fact</h2>
+            <p>Gives a great and interesting fact</p>
+            <p>Syntax: !fact</p>
+            <div class="syntax">
+                <p><b>@Magically Clueless</b> !fact</p>
+                <p><b>@Aquobot</b> Did you know the sky is blue?</p>
+            </div>
+            <br/>
+
+            <h2>!feedback</h2>
+            <p>Sends feedback message to the developers</p>
+            <p>Syntax: !feedback MESSAGE</p>
+            <div class="syntax">
+                <p><b>@Caesar</b> !feedback Everything is broken.</p>
+            </div>
+            <br/>
+
             <h2>!forecast</h2>
             <p>Gives a 7 day forecast of a specified location</p>
             <p>Syntax: !forecast [set] LOCATION</p>
+            <p>Note: Call also be called with !f</p>
             <div class="syntax">
                 <p><b>@Alfred</b> !forecast Cheyenne, WY</p>
                 <p><b>@Aquobot</b> Tue June 20 2017, Cloudy...</p>
             </div>
             <br/>
 
-            <h2>!info</h2>
-            <p>Posts information about the bot, namely current time, uptime, and temp of the RPi.</p>
-            <p>Syntax: !info</p>
+            <h2>!google</h2>
+            <p>Returns the first Google search resutl</p>
+            <p>Syntax: !google PHRASE</p>
+            <p>Note: Also works with !g</p>
             <div class="syntax">
-                <p><b>@Aquova</b> !info</p>
-                <p><b>@Aquobot</b> Local Time: 15:48:35 Uptime: 3:48 RPi Temp: 128.6ºF</p>
+                <p><b>@Waffles</b> !google banana</p>
+                <p><b>@Aquobot</b> https://en.wikipedia.org/wiki/Banana</p>
             </div>
             <br/>
 
@@ -131,6 +159,16 @@
             <div class="syntax">
                 <p><b>@Henry</b> !poll What is 2+2?, 3, 4, 5</p>
                 <p><b>@Aquobot</b> What is 2+2? <br/> 1. 3 <br/> 2. 4 <br/> 3. 5 <br/> [Discord reactions]</p>
+            </div>
+            <br/>
+
+            <h2>!quote</h2>
+            <p>Returns a quote from the stored quote database</p>
+            <p>Syntax: !quote [remove #]</p>
+            <p>Note: Quotes are added to the database by reacting to a message with the :speech_balloon: emoji.</p>
+            <div class="syntax">
+                <p><b>@eemie</b> !quote</p>
+                <p><b>@Aquobot</b> From Aquova: Hello world!</p>
             </div>
             <br/>
 
@@ -188,6 +226,43 @@
             </div>
             <br/>
 
+            <h2>!todo</h2>
+            <p>Allows users to add, remove, or view items on their personal todo list.</p>
+            <p>Syntax: !todo [add/remove#]</p>
+            <div class="syntax">
+                <p><b>@lunalex</b> !todo</p>
+                <p><b>@Aquobot</b> Take out the trash.</p>
+            </div>
+            <br/>
+
+            <h2>!tr</h2>
+            <p>Translates phrase into specified language</p>
+            <p>Syntax: !tr TARGET_LANG PHRASE</p>
+            <p>Note: Can also use !translate</p>
+            <div class="syntax">
+                <p><b>@eemie</b> !tr en Helaas pindakaas</p>
+                <p><b>@Aquobot</b> Too bad</p>
+            </div>
+            <br/>
+
+            <h2>!upside</h2>
+            <p>Returns given text, but written upside down</p>
+            <p>Syntax: !upside PHRASE</p>
+            <div class="syntax">
+                <p><b>@Obi-Wan</b> !upside down</p>
+                <p><b>@Aquobot</b> uʍop</p>
+            </div>
+            <br/>
+
+            <h2>/unshrug</h2>
+            <p>Don't you wish there was a /unshrug to go with /shrug?</p>
+            <p>Syntax: /unshrug</p>
+            <div class="syntax">
+                <p><b>@Rabbit</b> /unshrug</p>
+                <p><b>@Aquobot</b> _/¯(ツ)¯\_</p>
+            </div>
+            <br/>
+
             <h2>!until</h2>
             <p>Gives number of days until specified date</p>
             <p>Syntax: !until MM-DD-YYYY</p>
@@ -200,6 +275,7 @@
             <h2>!weather</h2>
             <p>Gives the current weather of a specified location</p>
             <p>Syntax: !weather LOCATION</p>
+            <p>Note: You can also use !w</p>
             <div class="syntax">
                 <p><b>@Alfred</b> !weather Orlando, FL</p>
                 <p><b>@Aquobot</b> Cloudy, 77F with wind speed of...</p>
@@ -212,6 +288,15 @@
             <div class="syntax">
                 <p><b>@Ringo</b> !wolfram time in NYC</p>
                 <p><b>@Aquobot</b> 3:15:40 pm EDT | Monday, June 12, 2017</p>
+            </div>
+
+            <h2>!xkcd</h2>
+            <p>Posts a comic from xkcd</p>
+            <p>Syntax: !xkcd [random/#]</p>
+            <p>Note: Either !xkcd random or !xkcd rand will produce a random comic. !xkcd will post the most recent comic.</p>
+            <div class="syntax">
+                <p><b>@Randall_Monroe</b> !xkcd</p>
+                <p><b>@Aquobot</b> Comic 912...</p>
             </div>
         </div>
     </body>
