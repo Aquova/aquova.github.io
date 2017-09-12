@@ -1,5 +1,9 @@
+#title {
+    font-family: 'Bitter', serif;
+}
+
 .jumbotron {
-	background-color: #9210F4; /* Purple */
+	background-color: #e5e5e5;
 	color: #000000;
 	padding: 100px 25px;
 }
@@ -35,10 +39,6 @@
 .bg-3 {
 	background-color: rgb(160, 177, 207); /* "xkcd color" */
 	color: #000000;
-}
-
-#me {
-	padding: 50px 0px;
 }
 
 .slideanim {
