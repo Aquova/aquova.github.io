@@ -12,6 +12,10 @@
 	padding: 50px 50px;
 }
 
+#me {
+    max-width: 50%;
+}
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
