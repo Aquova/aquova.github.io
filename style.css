@@ -89,6 +89,10 @@ table {
     background-color: #5b6794;
 }
 
+.item a {
+    color: black;
+}
+
 #navbar {
     font-family: Helvetica, sans-serif;
     margin: 20px;
