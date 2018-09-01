@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/aquova
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://austinbricker.com
+  * I am aquova (https://keybase.io/aquova) on keybase.
+  * I have a public key ASAHel9bFUZLynkw-PynkvhMnin-GZ7jbmeUBUswNTkjqAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120077a5f5b15464bca7930f8fca792f84c9e29fe199ee36e6794054b30353923a80a",
+      "host": "keybase.io",
+      "kid": "0120077a5f5b15464bca7930f8fca792f84c9e29fe199ee36e6794054b30353923a80a",
+      "uid": "2b32140140b4a64afc34039989579019",
+      "username": "aquova"
+    },
+    "merkle_root": {
+      "ctime": 1535776730,
+      "hash": "cd5954789726fc2b276690726e39c0538022f12af6b4ab0e66a205464bc633366c13a76f4de3c736954dafe55bb720003120c147e57a8711f371d6690ffe163e",
+      "hash_meta": "c455fa05b9e4503400c63bcdf8373ddd71ff8fa701fd9870222703f061c16a94",
+      "seqno": 3547903
+    },
+    "service": {
+      "entropy": "q9slQ7zSo7iBaymzefJy8IVv",
+      "hostname": "austinbricker.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.5.1"
+  },
+  "ctime": 1535776989,
+  "expire_in": 504576000,
+  "prev": "f1bbdb2e172cb149cd912d8f9a59493f3e98442ddd15c1599afe6902e0e4b1c1",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgB3pfWxVGS8p5MPj8p5L4TJ4p/hme425nlAVLMDU5I6gKp3BheWxvYWTESpcCCMQg8bvbLhcssUnNkS2PmllJPz6YRC3dFcFZmv5pAuDkscHEIDGfAkN+PKxWwZI6Yz3gya/frbAExvNqpIys/Fhk8rjzAgHCo3NpZ8RAPT5kLPZs9UW62Cr+nrkH+Ndn96H/Tm9TQFuxx4A+HW0BnHTzu8wFRw5ROEO9o+sVhNe2hWRXU9+51qDC0dw0DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGKOoUs3fGO4rMIQxT9rODs/6VjgLa6xVoMLTgagvPwgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aquova
+
+==================================================================
