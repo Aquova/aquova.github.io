@@ -8,7 +8,15 @@ body {
     width: 875px;
     margin: 0 auto;
     padding-bottom: 1px;
-    height: auto;
+    height: 100%;
+}
+
+#display {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #747d8d;
+    font-family: Helvetica, sans-serif;
 }
 
 ul {
@@ -28,9 +36,12 @@ li.right {
 
 li a {
     display: block;
-    text-align: center;
     padding: 10px 16px;
     color: black;
+}
+
+li a:visited {
+    color: #39134C;
 }
 
 li a:hover {
@@ -48,7 +59,11 @@ li a:hover {
     background-color: #747d8d;
 }
 
-h1 {
+.center-text {
+    text-align: center;
+}
+
+h1,h2 {
     text-align: center;
 }
 
@@ -64,12 +79,9 @@ table {
     table-layout: fixed;
 }
 
-#display {
-    border-radius: 5px;
-    margin: 20px;
-    padding: 20px;
-    background-color: #747d8d;
-    font-family: Helvetica, sans-serif;
+.center {
+    display: table;
+    margin: 0 auto;
 }
 
 .item {
