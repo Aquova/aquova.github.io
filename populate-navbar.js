@@ -12,13 +12,13 @@ function populate() {
     home.appendChild(homeLink)
     list.appendChild(home)
 
-    var blog = document.createElement("li")
-    blog.classList.add("right")
-    var blogLink = document.createElement("a")
-    blogLink.href = "https://austinbricker.com/blog.html"
-    blogLink.innerHTML = "My Blog"
-    blog.appendChild(blogLink)
-    list.appendChild(blog)
+    // var blog = document.createElement("li")
+    // blog.classList.add("right")
+    // var blogLink = document.createElement("a")
+    // blogLink.href = "https://austinbricker.com/blog.html"
+    // blogLink.innerHTML = "My Blog"
+    // blog.appendChild(blogLink)
+    // list.appendChild(blog)
 
     var pico = document.createElement("li")
     pico.classList.add("right")
