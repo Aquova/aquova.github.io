@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', populate, false);
 
 function populate() {
+    // Automatically adds items to the navbar, so I don't have to do it page by page
     var nav = document.getElementById("navbar")
     var list = nav.appendChild(document.createElement("ul"))
 
@@ -11,14 +12,6 @@ function populate() {
     homeLink.innerHTML = "Home"
     home.appendChild(homeLink)
     list.appendChild(home)
-
-    // var blog = document.createElement("li")
-    // blog.classList.add("right")
-    // var blogLink = document.createElement("a")
-    // blogLink.href = "https://austinbricker.com/blog.html"
-    // blogLink.innerHTML = "My Blog"
-    // blog.appendChild(blogLink)
-    // list.appendChild(blog)
 
     var pico = document.createElement("li")
     pico.classList.add("right")
@@ -39,8 +32,8 @@ function populate() {
     var KA = document.createElement("li")
     KA.classList.add("right")
     var KALink = document.createElement("a")
-    KALink.href = "https://austinbricker.com/KA-Rando"
-    KALink.innerHTML = "Kirby's Adventure Randomizer"
+    KALink.href = "https://austinbricker.com/me.html"
+    KALink.innerHTML = "Social Media"
     KA.appendChild(KALink)
     list.appendChild(KA)
 }

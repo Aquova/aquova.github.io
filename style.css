@@ -95,6 +95,8 @@ table {
     float: left;
     border-radius: 10px;
     margin-right: 10px;
+    width: 145px;
+    height: 145px;
 }
 
 .item h3 {
